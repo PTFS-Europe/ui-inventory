@@ -36,7 +36,7 @@ const headersIndex = {
   MATERIAL_TYPE: 9,
 };
 
-describe.only('InstanceViewPage', () => {
+describe('InstanceViewPage', () => {
   let instance;
 
   const visitingViewInventoryPageWithContent = () => {
