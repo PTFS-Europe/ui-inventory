@@ -7,7 +7,7 @@ module.exports = config => config.set({
       timeout: 10000000
     },
   },
-  browserDisconnectTolerance: 1,
+  browserDisconnectTolerance: 10,
   flags: [
     '--disable-gpu',
     '--no-sandbox',
