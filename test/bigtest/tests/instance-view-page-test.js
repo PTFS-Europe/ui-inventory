@@ -36,7 +36,7 @@ const headersIndex = {
   MATERIAL_TYPE: 9,
 };
 
-describe('InstanceViewPage', () => {
+describe.skip('InstanceViewPage', () => {
   let instance;
 
   const visitingViewInventoryPageWithContent = () => {
