@@ -4,10 +4,13 @@ module.exports = config => config.set({
   client: {
     captureConsole: false,
     mocha: {
-      timeout: 10000000
+      timeout: 10000
     },
   },
   browserDisconnectTolerance: 10,
+  browserDisconnectTimeout: 10000,
+  browserNoActivityTimeout: 10000,
+
   flags: [
     '--disable-gpu',
     '--no-sandbox',
