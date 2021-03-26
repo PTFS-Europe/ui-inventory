@@ -27,6 +27,12 @@ module.exports = config => config.set({
 --disable-dev-shm-usage
 */
   ],
+  plugins: [
+      'karma-chrome-launcher',
+      'karma-mocha',
+      'karma-junit-reporter',
+      'karma-mocha-reporter'
+  ],
 //   browsers: ['Chrome_no_sandbox'],
 //   customLaunchers: {
 //     Chrome_no_sandbox: {
