@@ -27,12 +27,12 @@ module.exports = config => config.set({
 --disable-dev-shm-usage
 */
   ],
-  browsers: ['Chrome_no_sandbox'],
-  customLaunchers: {
-    Chrome_no_sandbox: {
-      base: 'ChromeHeadless',
-      flags: ['--no-sandbox']
-    }
-  },
+//   browsers: ['Chrome_no_sandbox'],
+//   customLaunchers: {
+//     Chrome_no_sandbox: {
+//       base: 'ChromeHeadless',
+//       flags: ['--no-sandbox']
+//     }
+//   },
 
 });
