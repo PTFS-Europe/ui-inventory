@@ -17,6 +17,7 @@ module.exports = config => config.set({
     '--disable-background-timer-throttling',
     '--disable-renderer-backgrounding',
     '--disable-backgrounding-occluded-windows',
-    '--sourcemaps=false'
+    '--sourcemaps=false',
+    '--js-flags=--max-old-space-size=8196'
   ],
 });
