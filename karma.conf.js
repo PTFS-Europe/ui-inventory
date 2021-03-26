@@ -23,6 +23,16 @@ module.exports = config => config.set({
     '--sourcemaps=false',
     '--source-maps=false',
     '--js-flags=--max-old-space-size=8196'
+// https://stackoverflow.com/questions/62889702/headlesschrome-84-0-4147-linux-0-0-0-error
+--disable-dev-shm-usage
 */
   ],
+  browsers: ['ChromeHeadless'],
+  customLaunchers: {
+    Chrome_no_sandbox: {
+      base: 'ChromeHeadless',
+      flags: ['--no-sandbox']
+    }
+  },
+
 });
