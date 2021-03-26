@@ -18,6 +18,7 @@ module.exports = config => config.set({
     '--disable-renderer-backgrounding',
     '--disable-backgrounding-occluded-windows',
     '--sourcemaps=false',
+    '--source-maps=false',
     '--js-flags=--max-old-space-size=8196'
   ],
 });
