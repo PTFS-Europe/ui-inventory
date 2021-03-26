@@ -726,10 +726,10 @@
   "scripts": {
     "start": "stripes serve",
     "lint": "eslint .",
-    "test": "yarn run test:unit && yarn run test:e2e:ci",
+    "test": "yarn run test:e2e:ci",
     "test:unit": "jest --ci --coverage",
     "test:e2e": "stripes test karma",
-    "test:e2e:ci": "stripes test karma --karma.singleRun --karma.browsers Chrome_no_sandbox --karma.reporters mocha junit --coverage"
+    "test:e2e:ci": "stripes test karma --karma.singleRun --karma.reporters mocha junit --coverage"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
@@ -809,6 +809,7 @@
   "resolutions": {
     "babel-eslint/@babel/parser": "7.7.5",
     "karma": "^6.2.0",
+    "karma-chrome-launcher": "^3.1.0",
     "moment": "~2.24.0"
   }
 }
