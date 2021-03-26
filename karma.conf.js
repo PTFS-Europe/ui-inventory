@@ -16,6 +16,7 @@ module.exports = config => config.set({
     '--no-sandbox',
     '--disable-background-timer-throttling',
     '--disable-renderer-backgrounding',
-    '--disable-backgrounding-occluded-windows'
+    '--disable-backgrounding-occluded-windows',
+    '--sourcemaps=false'
   ],
 });
